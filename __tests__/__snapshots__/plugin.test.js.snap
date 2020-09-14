@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it generates everything as expected 1`] = `
+".blur-xs, .blur-sm, .blur, .blur-md, .blur-lg, .blur-xl, .blur-2xl, .brightness-25, .brightness-50, .brightness-75, .brightness-100, .brightness-125, .brightness-150, .brightness-175, .grayscale-0, .grayscale-25, .grayscale-50, .grayscale-75, .grayscale, .drop-shadow-xs, .drop-shadow-sm, .drop-shadow, .drop-shadow-md, .drop-shadow-lg, .drop-shadow-xl, .drop-shadow-2xl {
+  --blur: var(--tailwind-empty,/*!*/ /*!*/);
+  --brightness: var(--tailwind-empty,/*!*/ /*!*/);
+  --grayscale: var(--tailwind-empty,/*!*/ /*!*/);
+  --drop-shadow: var(--tailwind-empty,/*!*/ /*!*/);
+  filter: var(--blur) var(--brightness) var(--grayscale) var(--drop-shadow)
+}
+
+.blur-xs {
+  --blur: blur(0.5px)
+}
+
+.blur-sm {
+  --blur: blur(1px)
+}
+
+.blur {
+  --blur: blur(2px)
+}
+
+.blur-md {
+  --blur: blur(4px)
+}
+
+.blur-lg {
+  --blur: blur(10px)
+}
+
+.blur-xl {
+  --blur: blur(22px)
+}
+
+.blur-2xl {
+  --blur: blur(48px)
+}
+
+.brightness-25 {
+  --brightness: brightness(0.25)
+}
+
+.brightness-50 {
+  --brightness: brightness(0.5)
+}
+
+.brightness-75 {
+  --brightness: brightness(0.75)
+}
+
+.brightness-100 {
+  --brightness: brightness(1)
+}
+
+.brightness-125 {
+  --brightness: brightness(1.25)
+}
+
+.brightness-150 {
+  --brightness: brightness(1.5)
+}
+
+.brightness-175 {
+  --brightness: brightness(1.75)
+}
+
+.grayscale-0 {
+  --grayscale: grayscale(0)
+}
+
+.grayscale-25 {
+  --grayscale: grayscale(0.25)
+}
+
+.grayscale-50 {
+  --grayscale: grayscale(0.5)
+}
+
+.grayscale-75 {
+  --grayscale: grayscale(0.75)
+}
+
+.grayscale {
+  --grayscale: grayscale(1)
+}
+
+.drop-shadow-xs {
+  --drop-shadow: drop-shadow(0 0 1px rgba(0, 0, 0, 0.05))
+}
+
+.drop-shadow-sm {
+  --drop-shadow: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05))
+}
+
+.drop-shadow {
+  --drop-shadow: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.06))
+}
+
+.drop-shadow-md {
+  --drop-shadow: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.06))
+}
+
+.drop-shadow-lg {
+  --drop-shadow: drop-shadow(0 7px 12px rgba(0, 0, 0, 0.1)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05))
+}
+
+.drop-shadow-xl {
+  --drop-shadow: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.1)) drop-shadow( 0 5px 5px rgba(0, 0, 0, 0.04))
+}
+
+.drop-shadow-2xl {
+  --drop-shadow: drop-shadow(0 13px 36px rgba(0, 0, 0, 0.25))
+}
+
+.bg-blur-xs, .bg-blur-sm, .bg-blur, .bg-blur-md, .bg-blur-lg, .bg-blur-xl, .bg-blur-2xl, .bg-brightness-25, .bg-brightness-50, .bg-brightness-75, .bg-brightness-100, .bg-brightness-125, .bg-brightness-150, .bg-brightness-175, .bg-grayscale-0, .bg-grayscale-25, .bg-grayscale-50, .bg-grayscale-75, .bg-grayscale {
+  --bg-blur: var(--tailwind-empty,/*!*/ /*!*/);
+  --bg-brightness: var(--tailwind-empty,/*!*/ /*!*/);
+  --bg-grayscale: var(--tailwind-empty,/*!*/ /*!*/);
+  backdrop-filter: var(--bg-blur) var(--bg-brightness) var(--bg-grayscale)
+}
+
+.bg-blur-xs {
+  --bg-blur: blur(0.5px)
+}
+
+.bg-blur-sm {
+  --bg-blur: blur(1px)
+}
+
+.bg-blur {
+  --bg-blur: blur(2px)
+}
+
+.bg-blur-md {
+  --bg-blur: blur(4px)
+}
+
+.bg-blur-lg {
+  --bg-blur: blur(10px)
+}
+
+.bg-blur-xl {
+  --bg-blur: blur(22px)
+}
+
+.bg-blur-2xl {
+  --bg-blur: blur(48px)
+}
+
+.bg-brightness-25 {
+  --bg-brightness: brightness(0.25)
+}
+
+.bg-brightness-50 {
+  --bg-brightness: brightness(0.5)
+}
+
+.bg-brightness-75 {
+  --bg-brightness: brightness(0.75)
+}
+
+.bg-brightness-100 {
+  --bg-brightness: brightness(1)
+}
+
+.bg-brightness-125 {
+  --bg-brightness: brightness(1.25)
+}
+
+.bg-brightness-150 {
+  --bg-brightness: brightness(1.5)
+}
+
+.bg-brightness-175 {
+  --bg-brightness: brightness(1.75)
+}
+
+.bg-grayscale-0 {
+  --bg-grayscale: grayscale(0)
+}
+
+.bg-grayscale-25 {
+  --bg-grayscale: grayscale(0.25)
+}
+
+.bg-grayscale-50 {
+  --bg-grayscale: grayscale(0.5)
+}
+
+.bg-grayscale-75 {
+  --bg-grayscale: grayscale(0.75)
+}
+
+.bg-grayscale {
+  --bg-grayscale: grayscale(1)
+}"
+`;

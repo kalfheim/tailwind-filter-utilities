@@ -1,0 +1,33 @@
+{
+  "name": "tailwind-filter-utilities",
+  "version": "0.0.1",
+  "description": "Composable filter utilities for Tailwind CSS",
+  "keywords": [
+    "tailwind",
+    "plugin",
+    "filter",
+    "backdrop-filter"
+  ],
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --write ./**/*.js"
+  },
+  "author": "Kristoffer Alfheim <kristoffer.alfh@hey.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.kebabcase": "^4.1.1",
+    "tailwindcss": "^1.8.9"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "lodash.merge": "^4.6.2",
+    "postcss": "^7.0.32",
+    "prettier": "^2.1.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  }
+}
