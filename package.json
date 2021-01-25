@@ -9,8 +9,8 @@
     "backdrop-filter"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kalfheim/tailwind-filter-utilities.git"
+    "type": "git",
+    "url": "https://github.com/kalfheim/tailwind-filter-utilities.git"
   },
   "main": "./src/index.js",
   "scripts": {
@@ -22,12 +22,12 @@
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
     "lodash.kebabcase": "^4.1.1",
-    "tailwindcss": "^1.8.9"
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "jest": "^26.4.2",
     "lodash.merge": "^4.6.2",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.4",
     "prettier": "^2.1.1"
   },
   "prettier": {
