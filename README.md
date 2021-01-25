@@ -1,7 +1,5 @@
 # Filter Utilities for Tailwind CSS
 
-**Work in progress!**
-
 Composable filter utilities for Tailwind CSS.
 
 The problem with the filter property is that filters can't be composed using
@@ -136,4 +134,37 @@ The supported filters are blur, brightness, grayscale, and drop shadow.
 
 ## Configuration
 
-@todo: write something about configuring the damn thing
+This plugin is configured like any other Tailwind plugin. For example, if you
+wish to add additional blur levels, you would do as follows:
+
+``` javascript
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extends: {
+      blur: {
+        '10xl': '9000px',
+        // ...
+      },
+    }
+  },
+  plugins: [
+    require('tailwind-filter-utilities'),
+    // ...
+  ],
+}
+```
+
+**For more details on what you can configure and how, please take a look at the
+[default configuration file](https://github.com/kalfheim/tailwind-filter-utilities/blob/master/src/config.js).**
+
+## Contributing
+
+If you encounter any problems, or have ideas to improve the plugin, please
+don't hesitate to submit a pull request. If it's a bug fix, or a not entirely
+terrible idea, I'll definitely push the merge button! (as long as it doesn't
+break anything)
+
+## MIT License
+
+See the LICENSE file for details.
